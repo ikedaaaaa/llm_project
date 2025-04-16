@@ -3,6 +3,8 @@ python3
 でインタラクティブモードを起動し以下を実行してmodel,tokenierを取得する
 with open('llm_based_use.py') as f:
     exec(f.read())
+
+その後以下でコメントアウトになっているコードを実行すると動く．
 """
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
